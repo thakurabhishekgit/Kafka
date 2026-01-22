@@ -26,4 +26,5 @@ public class kafkaProducer {
         kafkaTemplate.send("my-topic-from-spring", rider);
         return ResponseEntity.ok(rider);
     }
+
 }
